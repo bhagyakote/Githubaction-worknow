@@ -13,9 +13,11 @@ jobs:
           - name: say bye
             run:  |
              echo "Say goodbye"
-             exit 1
+             exit 0
           - name: Say bye
             run: echo "Good-bye"
+
+            
       
 
 
