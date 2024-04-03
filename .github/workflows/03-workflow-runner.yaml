@@ -10,6 +10,13 @@ jobs:
            echo "This job is runnimg on ubuntu runner"
            echo "  Runner OS: {{$RUNNER_OS}}"
 
+   windows_job:
+      runs-on: windows-latest
+      steps:
+        - name: runnimg on windows runner
+          run: echo " Runner OS:{{$RUNNER_OS}} "
+    
+
 
 
 
