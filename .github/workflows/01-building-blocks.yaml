@@ -1,21 +1,23 @@
 name: 01-building-blocks
 on: 
-    push:
+   push:
 jobs:
     hello_job:
-        runs-on: ubuntu-latest
-        steps:
-        - name: say heloo
-          run: echo "Say hello"
-    good-bye_job:
-         runs-on: ubuntu-latest
-         steps:
-             - name: failed step
-               run: |
-                   echo "I will fail"
-                   exit 0
-             - name: say goodbye
-               run: echo "bye"
+      runs-on: ubuntu-latest
+      steps:
+        - name: say hello
+          run: echo "hello"
+    goodbye_job:
+      runs-on: ubuntu-latest
+      steps:
+          - name: say bye
+            run:  |
+             echo "Say goodbye"
+             exit 1
+          - name: Say bye
+            run: echo "Good-bye"
+      
 
 
-                 
+
+
