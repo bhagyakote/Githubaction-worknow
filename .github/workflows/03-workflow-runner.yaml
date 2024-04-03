@@ -17,7 +17,16 @@ jobs:
         - name: runnimg on windows runner
           shell: bash
           run: echo " Runner OS:$RUNNER_OS "
-    
+
+   mac_job:
+       runs-on: macos-latest
+       steps:
+          - name: Running on MAc-os runners
+            run: echo " Runner OS:$RUNNER_OS "
+          
+          
+       
+          
 
 
 
