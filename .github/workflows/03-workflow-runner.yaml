@@ -12,9 +12,10 @@ jobs:
 
    windows_job:
       runs-on: windows-latest
-      shell: bash
+   
       steps:
         - name: runnimg on windows runner
+          shell: bash
           run: echo " Runner OS:$RUNNER_OS "
     
 
