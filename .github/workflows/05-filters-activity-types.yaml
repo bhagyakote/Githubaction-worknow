@@ -1,4 +1,4 @@
-name:  05-1-activity-filters-types
+name:  05-activity-filters-types
 on:
    pull_request:
    push:
