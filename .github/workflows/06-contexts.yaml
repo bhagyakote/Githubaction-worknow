@@ -12,7 +12,9 @@ jobs:
                    echo " REf: ${{github.ref}} "
                    echo " SHA: $ {{github.sha}} "
                    echo " Actor: ${{github.actor}}"
-                     echo " workflow: ${{github.workflow}}"
+                   echo " workflow: ${{github.workflow}}"
+                   echo " Run ID: ${{github.run_id}}"
+                   echo " Run number: ${{github.number}}"
               - name: Retrieve variables
                 run: |
                     echo "variable value: ${{vars.MY_VAR}}"
