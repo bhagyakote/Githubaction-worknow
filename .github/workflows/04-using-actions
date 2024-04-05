@@ -1,0 +1,11 @@
+name: 04-using-actions
+on: 
+   push:
+jobs:
+   job1_ build:
+       runs-on: ubuntu-latest
+       steps:
+          - name: checkout code
+            uses: actions/checkoout@v4
+          - name: priting folders
+            run: ls
