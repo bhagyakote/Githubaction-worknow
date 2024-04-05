@@ -1,6 +1,7 @@
 name:  05-1-activity-filters-types
 on:
    pull_request:
+   push:
      types:
          - opened
          - synchronise
