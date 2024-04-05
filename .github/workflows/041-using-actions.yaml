@@ -3,8 +3,9 @@ on:
    push:
 jobs:
    build_job:
+      rubs-on: ubuntu-latest
        steps:
-          - name: checkkout code
+          - name: checkout code
             uses: actions/checkout@v4
           - name: Setup Node
             uses: actions/setup-node@v3
@@ -14,3 +15,5 @@ jobs:
             run: npm ci         
 
             
+
+
