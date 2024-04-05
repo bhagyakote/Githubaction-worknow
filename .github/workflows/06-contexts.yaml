@@ -1,5 +1,5 @@
 name: 06-context
-run-name: ${{}}
+
 on: 
    push:
 jobs:
