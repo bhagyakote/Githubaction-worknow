@@ -12,6 +12,7 @@ jobs:
     job_pull_req:
           runs-on: ubuntu-latest
           steps:
-              - run: echo "Running whenever PR is synchronised or open and base branch is main" 
+            - name: show the o/P
+              run: echo "Running whenever PR is synchronised or open and base branch is main" 
               
        
